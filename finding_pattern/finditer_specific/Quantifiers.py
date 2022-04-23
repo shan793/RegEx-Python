@@ -10,6 +10,8 @@ matches = pattern.finditer(test_string)
 for match in matches:
     print(match)
 
+print("______________________")
+
 test_string_2 = "hello123"
 
 # Find digits in range 1 - 3
